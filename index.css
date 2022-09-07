@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(dashboard.jpg);
+  background-position: right center;
+  background-size: 60%;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+nav {
+  position: relative;
+}
+
+nav img {
+  width: 150px;
+}
+.nav-links {
+  position: absolute;
+  top: 0;
+  left: 20%;
+}
+.nav-links ul li {
+  /* list se dotes remove ke liye */
+  list-style: none;
+  display: inline-block; /*horizontely*/
+  padding: 8px 12px;
+  position: relative;
+}
+.nav-links ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 13px;
+}
+.text-box {
+  width: 90%;
+  color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  /* for the center */
+  transform: translate(-50%, -50%);
+}
+.text-box h1 {
+  font-size: 52px;
+  color: navy;
+}
+.text-box p {
+  margin: 10px 0 40px;
+  font-size: 14px;
+  color: black;
+}
+.hero-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: 1px solid black;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  cursor: pointer;
+  position: relative;
+  background: navy;
+}
+.input {
+  display: inline-block;
+  text-decoration: none;
+  color: navy;
+  border: 1px solid black;
+  padding: 12px 34px;
+  font-size: 13px;
+
+  position: relative;
+  background: white;
+}
+
+.hero-btn:hover {
+  border: 1px solid navy;
+
+  transition: 1s;
+}
+.course2 {
+  width: 80%;
+  margin: auto;
+  padding-top: 100px;
+  /* text center ke liye */
+  text-align: center;
+}
+.row {
+  margin-top: 5%;
+  /* all the div inside this row will be in the column */
+  display: flex;
+  justify-content: space-between;
+}
+.section-col {
+  flex-basis: 31%;
+  background: white;
+  border-radius: 10px;
+  margin-bottom: 10%;
+  padding: 20px;
+  /* box ke liye (har ek box ke bich mein space aajayeg)*/
+  box-sizing: border-box;
+
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+h3 {
+  color: black;
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+}
+section.about-img img {
+  width: 85%;
+}
+.flex {
+  display: flex;
+}
+/* 2nd section mein image aur content half half space le uske liye flex use hota hai */
+.flex-1 {
+  flex: 1;
+}
+section.about-img h2 {
+  font-family: "Raleway-bold";
+  font-size: 1.4rem;
+  color: var(--secondary);
+  margin-bottom: 2rem;
+  line-height: 1.3;
+}
+section.about-img p {
+  line-height: 1.7;
+  margin-bottom: 4rem;
+}
+
+.section4 {
+  width: 80%;
+  margin: auto;
+  padding-top: 100px;
+  /* text center ke liye */
+  text-align: center;
+  position: relative;
+}
+.row1 {
+  margin-top: 5%;
+  /* all the div inside this row will be in the column */
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-auto-flow: row;
+  margin-bottom: 20%;
+  column-gap: 20px;
+}
+.section-col1 {
+  background: white;
+  border-radius: 10px;
+  margin-bottom: 10%;
+  padding: 20px;
+  /* box ke liye (har ek box ke bich mein space aajayeg)*/
+  box-sizing: border-box;
+
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.section-col1-imp {
+  background: white;
+  border-radius: 10px;
+  margin-bottom: 20%;
+  padding: 20px;
+  /* box ke liye (har ek box ke bich mein space aajayeg)*/
+  box-sizing: border-box;
+  position: absolute;
+  top: 100%;
+
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+h3 {
+  color: black;
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.picture {
+  position: relative;
+}
+.picture img {
+  position: absolute;
+  max-width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 20%;
+}
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 60%;
+}
+.footer h4 {
+  margin-bottom: 25px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.icons .fa {
+  color: navy;
+  margin: 0 13px;
+  cursor: pointer;
+  padding: 18px 0;
+}
+.fa-heart-o {
+  color: navy;
+}
